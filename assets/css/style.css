@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 5vh 10vw;
+}
+header{
+    background-color: #545454;
+}
+#inicio{
+    background-color:#545454 ;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    align-items: center;
+    color: white;
+
+}
+#inicio img{
+    max-width: 40vw;
+ filter: drop-shadow(10px -4px 6px rgba(0,0,0,0.3));
+ padding: 2vh 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#sobre-mim{
+    background-color: #545454;
+}
+#item-sobre{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+#judy {
+    width: 50%;
+    
+}
+
+.descricao{
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.descricao img{
+    width: 100%;
+
+}
+
+.descricao p{
+    text-align: justify;
+}
+#meus-projetos{
+    background-color: #545454;
+    color: white;
+    padding: 2vh 0 2vh 0;
+}
+#meus-projetos h2{
+    padding-left: 2vw;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.item-clientes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.i-cliente{
+    font-size: 12px;
+}
+.i-cliente img{
+    width: 100px;
+}
+
+#mulher-vestido {
+    width: 50%;
+}
+
+.item-formulario {
+    width: 50%;
+    padding: 20px;
+}
+
+
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #545454;
+
+}
+
+.item-formulario h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    background-color: #545454;
+    color: white;
+}
+
+
